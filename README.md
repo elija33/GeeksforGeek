@@ -127,4 +127,60 @@ Given (1701, 3768)
  gcd = 108 / 21 =  5 r 3
  gcd = 21 / 3 = 7 r 0
  gcd = 3
+
+
+                                Find the LCM
+To find the lcm, we use this a*b = g(a,b) * lcm(a,b) or a*b  = gcd*lcm
+                    
+                    Eample of finding the lcm
+    Let a = 50, and b = 60
+    a*b = gcd * lcm
+    The gcd of 50 and 60 is 10.
+    lcm = 50*60/10
+    lcm = 300
+
+                        Ckecking for Prime Number
+A prime number is a whole number greater than 1 whose only factors are 1 and itself. A factor is a whole number that can be divided evenly into another number exmple of a prime numbers are 2,3,7,11,13,17,19,23 and more 
+
+
+
+
+
+                                Prime Factors of a Number
+
+
+
+
+                                All diviors of Number.
+
+    Given a number n, print out all the divisors of the number
+                    Example 
+    Given input: 15.
+        output: 1 3 5 15
+    
+    Given input: 100.
+        output: 1 2 4 5 10 20 25 50 and 100
+
+    Given input: 7
+        output: 1 and 7
+                            
+                        Naive Pseudo code Solution for All Divisors of a Number
+            for loop from 1 to n(given number); increment the i; --->>>> for(int i = 1; i<= n; i++) 
+                        if statement that find the mod when n mod ----->>>      if(n%i == 0)
+                             print out i                          ----->>>        System.out.println(i);
+
+
+                             Efficient Solution of all diviors of Number.
+(1) Divisions of a number always appear in paris
+    30: (1, 30), (2, 15), (3, 10), (5, 6).
+
+(2) One of teh dividois in every pair is smaller than or equal to square root of n
+            for a pair (x, y)
+                x * y = n
+        let x be the smaller, i.e. x <= y
+            x * x <= n
+                x <= square root of n
+
+        
+
           

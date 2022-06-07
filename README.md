@@ -181,6 +181,46 @@ A prime number is a whole number greater than 1 whose only factors are 1 and its
             x * x <= n
                 x <= square root of n
 
+
+                                Sieve of Eratosthenes
+
+
+
+
+                                    Computing Power
+Giver two numbers x and n, compute x raised to the power n.
+                        Example
+if Input: x = 2, n = 3
+   Output: 8
+
+   Input: x = 3, n = 4
+   Output: 81
+
+   Input: x = 5, n = 0
+   Output: 1
+
+   Input: x = 5, n = 1
+   Outpu: 5
+                                Naive Pseudo code Soulution of Computing Power.
+Set a valuable and initialize as 1;                         ---->> int num = 1;
+for loop to multiply the valuble with x and x, the loop run n times ---->> for(int i = 0; i<n; i++)
+Another hydration multiply x with the valuable 
+
+                                Efficient Pseudo code Soulution of Computing Power.
+if x over n 
+if n % 2 == 0
+    power(x, n/2) * power(x, n/2)
+else
+    power(x, n)
+
+
+
+                                        Iterative Power(Binary Exponentiation)
+Every number can be written as sum of power of 2(set bits in binary exponentiation).
+We can travere throught all bits of a number (from LSB to MSB) in O(log n) time.
+        
+3^10 = 3^8 * 3^2          ===>>>  10: 1010
+3^19 = 3^16 * 3^2 * 3^1   ===>>>  19: 10011
         
 
           

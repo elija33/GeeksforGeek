@@ -218,9 +218,20 @@ else
                                         Iterative Power(Binary Exponentiation)
 Every number can be written as sum of power of 2(set bits in binary exponentiation).
 We can travere throught all bits of a number (from LSB to MSB) in O(log n) time.
-        
+
 3^10 = 3^8 * 3^2          ===>>>  10: 1010
 3^19 = 3^16 * 3^2 * 3^1   ===>>>  19: 10011
+
+
+
+                            Bitwise Operators in Java
+    Bitwise and: if two input are 1 than the output is 1, all other cases the input is 0.
+    Bitwise or Operator: considers binary representation of two numbers. the output number is 1 when any of the input number is 1, and the output number is 0, when both the input numbers are 0.
+
+
+
+
+                        Res
         
 
           

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class CountDigits{
 
     public static int countDi(int x){
@@ -11,7 +13,8 @@ public class CountDigits{
     }
 
     public static void main(String[] args) {
-        int number = 23435;
+        Scanner numbers = new Scanner(System.in);
+        int number = numbers.nextInt();
         System.out.println(countDi(number));
     }
 }

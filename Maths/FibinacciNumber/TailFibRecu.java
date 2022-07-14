@@ -7,6 +7,9 @@ public class TailFibRecu {
         return fact(number-1, numbers*number);
     }
     public static void main(String[] args) {
-        System.out.println(fact(3, 1));
+        Scanner num = new Scanner(System.in);
+        int number = num.nextInt();
+        int numbers = num.nextInt();
+        System.out.println(fact(number, numbers));
     }
 }

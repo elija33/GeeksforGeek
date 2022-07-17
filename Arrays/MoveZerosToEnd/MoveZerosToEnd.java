@@ -12,10 +12,13 @@ public class MoveZerosToEnd {
                 }
             }
         }
-        // loop the goes throught the hold array from index zeros to the end of the array.
+            // loop the goes throught the hold array from index zeros to the end of the array.
             //- if we do not find any zeros we keep looping throught array and print out the array.
             // - if we find zero we swap it with non zeros element at the right.
+        return 0;
 
+    }
+    private static void swap(int i, int j) {
     }
     public static void main(String[] args) {
         

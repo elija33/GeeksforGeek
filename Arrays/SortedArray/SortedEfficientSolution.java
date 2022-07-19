@@ -1,3 +1,4 @@
+package SortedArray;
 public class SortedEfficientSolution {
     public static boolean isSorted(int number[], int numbers){
         for(int i = 1; i<numbers; i++){

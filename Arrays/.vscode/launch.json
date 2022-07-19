@@ -1,0 +1,301 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch BruteForceSearch",
+            "request": "launch",
+            "mainClass": "BruteForceSearch",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeletionArray",
+            "request": "launch",
+            "mainClass": "DeletionArray",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch EfficientFindLargetIndexElement",
+            "request": "launch",
+            "mainClass": "EfficientFindLargetIndexElement",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frequencies",
+            "request": "launch",
+            "mainClass": "FrequenciesSortedArray.Frequencies",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insert",
+            "request": "launch",
+            "mainClass": "Insert",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestElement",
+            "request": "launch",
+            "mainClass": "LargestElement.LargestElement",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestElementForEach",
+            "request": "launch",
+            "mainClass": "LargestElement.LargestElementForEach",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch EfficientLeaderNumberArray",
+            "request": "launch",
+            "mainClass": "LeadersInAnArray.EfficientLeaderNumberArray",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaiveLeaderNumberArray",
+            "request": "launch",
+            "mainClass": "LeadersInAnArray.NaiveLeaderNumberArray",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetRotateArray",
+            "request": "launch",
+            "mainClass": "LeftRotateArrayByOne.LetRotateArray",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch EfficienRotateArrayDPlace",
+            "request": "launch",
+            "mainClass": "LeftRotateArrayDplaces.EfficienRotateArrayDPlace",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Naiverotatearraydplace",
+            "request": "launch",
+            "mainClass": "LeftRotateArrayDplaces.Naiverotatearraydplace",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReversalRotateArrayDPlace",
+            "request": "launch",
+            "mainClass": "LeftRotateArrayDplaces.ReversalRotateArrayDPlace",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestEvenOddEfficient",
+            "request": "launch",
+            "mainClass": "LongestEvenOddSubarray.LongestEvenOddEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestEvenOddNaive",
+            "request": "launch",
+            "mainClass": "LongestEvenOddSubarray.LongestEvenOddNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajoritElementEficient",
+            "request": "launch",
+            "mainClass": "MajorityElement.MajoritElementEficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajoritElementNaive",
+            "request": "launch",
+            "mainClass": "MajorityElement.MajoritElementNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumCircularEfficient",
+            "request": "launch",
+            "mainClass": "MaximumCircularSumSubarray.MaximumCircularEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumCircularNaive",
+            "request": "launch",
+            "mainClass": "MaximumCircularSumSubarray.MaximumCircularNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsecutiveOnesEfficient",
+            "request": "launch",
+            "mainClass": "MaximumConsecutive.ConsecutiveOnesEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsecutiveOnesNaive",
+            "request": "launch",
+            "mainClass": "MaximumConsecutive.ConsecutiveOnesNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch EfficientMaximumDifference",
+            "request": "launch",
+            "mainClass": "MaximumDifference.EfficientMaximumDifference",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaiveMaximumDifference",
+            "request": "launch",
+            "mainClass": "MaximumDifference.NaiveMaximumDifference",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarraySumEfficient",
+            "request": "launch",
+            "mainClass": "MaximumSubarraySum.MaximumSubarraySumEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarraySumNaive",
+            "request": "launch",
+            "mainClass": "MaximumSubarraySum.MaximumSubarraySumNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch EfficientMoveZerosToEnd",
+            "request": "launch",
+            "mainClass": "MoveZerosToEnd.EfficientMoveZerosToEnd",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZerosToEnd",
+            "request": "launch",
+            "mainClass": "MoveZerosToEnd.MoveZerosToEnd",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "RemoveDeplicatesSortedArray.RemoveDuplicates",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesEfficient",
+            "request": "launch",
+            "mainClass": "RemoveDeplicatesSortedArray.RemoveDuplicatesEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searching",
+            "request": "launch",
+            "mainClass": "Searching",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargestElementIndeed",
+            "request": "launch",
+            "mainClass": "SecondLargestElementIndeed",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindowTechniqueNaive",
+            "request": "launch",
+            "mainClass": "SlidingWindowTechnique.SlidingWindowTechniqueNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedEfficientSolution",
+            "request": "launch",
+            "mainClass": "SortedArray.SortedEfficientSolution",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedNaiveSolution",
+            "request": "launch",
+            "mainClass": "SortedArray.SortedNaiveSolution",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuySellEfficient",
+            "request": "launch",
+            "mainClass": "StockBuySellProblem.StockBuySellEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuySellNaive",
+            "request": "launch",
+            "mainClass": "StockBuySellProblem.StockBuySellNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrappingRainWaterEfficient",
+            "request": "launch",
+            "mainClass": "TrappingRainWater.TrappingRainWaterEfficient",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrappingRainWaterNaive",
+            "request": "launch",
+            "mainClass": "TrappingRainWater.TrappingRainWaterNaive",
+            "projectName": "Arrays_b72db175"
+        },
+        {
+            "type": "java",
+            "name": "Launch Try",
+            "request": "launch",
+            "mainClass": "Try",
+            "projectName": "Arrays_b72db175"
+        }
+    ]
+}

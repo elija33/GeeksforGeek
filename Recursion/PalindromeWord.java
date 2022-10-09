@@ -8,10 +8,8 @@ public class PalindromeWord {
     }
 
     public static void main(String[] args) {
-        Scanner word = new Scanner(System.in);
-        System.out.println("Enter the what you want");
-        Boolean words = word.nextBoolean();
-        System.out.println(isPalindrome(words, 0, words.length() - 1));
+        String word = "GeeksforGeeks";
+        System.out.println(isPalindrome(word, 0, word.length() - 1));
 
     }
 }

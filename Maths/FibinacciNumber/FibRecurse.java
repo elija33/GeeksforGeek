@@ -1,16 +1,15 @@
-import java.util.Scanner;
 
-public class FibRecurse{
-     public static void main(String[] args) {
-         Scanner fib = new Scanner(System.in);
-         int fiber = fib.nextInt();
-         if(fiber <= 1){
-             System.out.println(fiber);
-         }
-         else{
-             int number = FibRecurse(fiber - 1) + FibRecurse(fiber - 2);
-         }
-         System.out.println(number);
+public class FibRecurse {
 
-     }
+    public static int fact(int number) {
+        if (number == 0) {
+            return 1;
+        }
+        return number * fact(number - 1);
+    }
+
+    public static void main(String[] args) {
+        int number = 4;
+        System.out.println(fact(number));
+    }
 }
